@@ -12,6 +12,7 @@
 <meta name=theme-color content="rgb(0, 136, 204)">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'">
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
 <link rel=stylesheet href=/css/wowchemy.a7532f82ed430994157fab47bc267907.css>
@@ -30,7 +31,7 @@
 <meta property="og:title" content="Atif Khurshid">
 <meta property="og:description" content="Computer Scientist"><meta property="og:image" content="https://atifkhurshid.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://atifkhurshid.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2021-05-20T00:00:00+00:00">
+<meta property="og:updated_time" content="2021-10-01T00:00:00+00:00">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","url":"https://atifkhurshid.github.io/"}</script>
 <title>Atif Khurshid</title>
 </head>
@@ -139,7 +140,7 @@
 <div class="col-12 col-lg-8">
 <h1></h1>
 <div class=article-style>
-<p>I am a student of M.S. Computer Science in the School of Electrical Engineering and Computer Science at National University of Sciences & Technology, Islamabad. My research is focused on the applications of deep learning in computer vision and natural language processing, particularly using unsupervised and transfer learning techniques.</p>
+<p>I am a student of M.S. Computer Science in the School of Electrical Engineering and Computer Science at National University of Sciences & Technology, Islamabad. My research is focused on the applications of deep learning in computer vision and natural language processing, particularly using unsupervised and transfer learning techniques. Currently, I&rsquo;m working on real-time face retrieval from video streams at the <a href=http://vision.seecs.edu.pk target=_blank rel=noopener>MachVIS Lab</a>.</p>
 </div>
 <div class=row>
 <div class=col-md-5>
@@ -189,32 +190,48 @@
 <div class=btn-toolbar>
 <div class="btn-group flex-wrap">
 <a href=# data-filter=* class="btn btn-primary btn-lg active">All</a>
+<a href=# data-filter=.js-id-Deep-Learning class="btn btn-primary btn-lg">Deep Learning</a>
+<a href=# data-filter=.js-id-Machine-Learning class="btn btn-primary btn-lg">Machine Learning</a>
 <a href=# data-filter=.js-id-Computer-Vision class="btn btn-primary btn-lg">Computer Vision</a>
 <a href=# data-filter=.js-id-Natural-Language-Processing class="btn btn-primary btn-lg">Natural Language Processing</a>
-<a href=# data-filter=.js-id-Machine-Learning class="btn btn-primary btn-lg">Machine Learning</a>
 </div>
 </div>
 </div>
 </div>
 <div class="isotope projects-container row js-layout-row project-showcase">
-<div class="col-lg-12 project-item isotope-item js-id-Natural-Language-Processing">
+<div class="col-lg-12 project-item isotope-item js-id-Deep-Learning js-id-Computer-Vision">
+<div class="row align-items-center">
+<div class="col-12 col-md-6">
+<div class="section-subheading article-title mb-0 mt-0">StreamFace - Extracting a large-scale face dataset from live streams</div>
+<div class=article-style>
+A study of efficient face retrieval techniques in a real-time video stream analytics system with the aim of generating a large-scale face dataset.
+</div>
+<div class=btn-links>
+</div>
+</div>
+<div class="col-12 col-md-6 order-first">
+<img src=/project/dl-streamface/featured_hu3978ae1e3a8c64247131f55aa6bf0b54_55406_540x0_resize_lanczos_3.png alt="StreamFace - Extracting a large-scale face dataset from live streams" loading=lazy>
+</div>
+</div>
+</div>
+<div class="col-lg-12 project-item isotope-item js-id-Deep-Learning js-id-Natural-Language-Processing">
 <div class="row align-items-center">
 <div class="col-12 col-md-6">
 <div class="section-subheading article-title mb-0 mt-0">Transfer learning grammar for multilingual surface realisation</div>
 <div class=article-style>
-Implemented a transformer model to study the extent of cross-lingual transfer learning of grammatical features in multilingual surface realisation.
+A study of cross-lingual transfer learning of grammatical features in a transformer model for multilingual surface realisation.
 </div>
 <div class=btn-links>
 <a class="btn btn-outline-primary btn-page-header" href=https://github.com/atifkhurshid/nlp-transfer-learning-grammar target=_blank rel=noopener>
 <i class="fab fa-github mr-1"></i>Code</a>
 </div>
 </div>
-<div class="col-12 col-md-6 order-first">
+<div class="col-12 col-md-6 order-first order-md-2">
 <img src=/project/nlp-transfer-learning-grammar/featured_hu4f09605e8b4e74cfd8c67692bd6ae305_112830_540x0_resize_lanczos_3.png alt="Transfer learning grammar for multilingual surface realisation" loading=lazy>
 </div>
 </div>
 </div>
-<div class="col-lg-12 project-item isotope-item js-id-Machine-Learning">
+<div class="col-lg-12 project-item isotope-item js-id-Machine-Learning js-id-Network-Security">
 <div class="row align-items-center">
 <div class="col-12 col-md-6">
 <div class="section-subheading article-title mb-0 mt-0">Online machine learning-based framework for network intrusion detection</div>
@@ -226,34 +243,17 @@ Extendible framework for incorporation of arbitrary machine learning models in o
 <i class="fab fa-github mr-1"></i>Code</a>
 </div>
 </div>
-<div class="col-12 col-md-6 order-first order-md-2">
+<div class="col-12 col-md-6 order-first">
 <img src=/project/ml-nids/featured_hu7decc3d44c2afc2b9a1586ffa7fd3794_139927_540x0_resize_lanczos_3.png alt="Online machine learning-based framework for network intrusion detection" loading=lazy>
 </div>
 </div>
 </div>
-<div class="col-lg-12 project-item isotope-item js-id-Machine-Learning">
-<div class="row align-items-center">
-<div class="col-12 col-md-6">
-<div class="section-subheading article-title mb-0 mt-0">Comparing machine learning models for horse race predictions</div>
-<div class=article-style>
-Implemented and compared the performances of several classification and regression models in predicting the results of horse races using data from Hong Kong Jockey Club.
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header" href=https://github.com/atifkhurshid/ml-horse-racing-prediction target=_blank rel=noopener>
-<i class="fab fa-github mr-1"></i>Code</a>
-</div>
-</div>
-<div class="col-12 col-md-6 order-first">
-<img src=/project/ml-horseracing/featured_hua50545681a5a11c62b2356407d21b4a8_96194_540x0_resize_lanczos_3.png alt="Comparing machine learning models for horse race predictions" loading=lazy>
-</div>
-</div>
-</div>
-<div class="col-lg-12 project-item isotope-item js-id-Computer-Vision">
+<div class="col-lg-12 project-item isotope-item js-id-Deep-Learning js-id-Computer-Vision">
 <div class="row align-items-center">
 <div class="col-12 col-md-6">
 <div class="section-subheading article-title mb-0 mt-0">Heart disease classification using deep residual learning</div>
 <div class=article-style>
-Implemented a Deep Residual Neural Network in TensorFlow to detect Atrial Fibrillation using the dataset from PhysioNet Computing in Cardiology Challenge 2017.
+Implemented a Deep Residual Neural Network to detect Atrial Fibrillation using the dataset from PhysioNet Computing in Cardiology Challenge 2017.
 </div>
 <div class=btn-links>
 <a class="btn btn-outline-primary btn-page-header" href=https://github.com/atifkhurshid/dl-resnet-for-af-classification target=_blank rel=noopener>
@@ -286,7 +286,7 @@ Implemented a Deep Residual Neural Network in TensorFlow to detect Atrial Fibril
 </div>
 <a href=/publication/2021-transfer-learning-grammar/ class=summary-link>
 <div class=article-style>
-An investigation of the possibility of cross-lingual transfer learning of grammatical features in a multilingual text-to-text transformer.
+A study of cross-lingual transfer learning of grammatical features in a transformer model for multilingual surface realisation.
 </div>
 </a>
 <div class="stream-meta article-metadata">
@@ -334,10 +334,23 @@ Slides
 <span id=person-email><a href=mailto:atifkhurshid100@gmail.com>atifkhurshid100@gmail.com</a></span>
 </li>
 <li>
+<i class="fa-li fas fa-map-marker fa-2x" aria-hidden=true></i>
+<span id=person-address>MachVIS Lab, PG Block, SEECS, NUST </span>
+</li>
+<li>
 <i class="fa-li fab fa-twitter fa-2x" aria-hidden=true></i>
 <a href=https://twitter.com/atifkhurshid100 target=_blank rel=noopener>@atifkhurshid100</a>
 </li>
 </ul>
+<div class=d-none>
+<input id=map-provider value=mapnik>
+<input id=map-lat value=33.642658505355655>
+<input id=map-lng value=72.99021590346351>
+<input id=map-dir value="MachVIS Lab, PG Block, SEECS, NUST ">
+<input id=map-zoom value=14>
+<input id=map-api-key value>
+</div>
+<div id=map></div>
 </div>
 </div>
 </div>
@@ -379,6 +392,7 @@ Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_bl
 <script src=/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script>
 <script src=/en/js/wowchemy.min.4273a72ba000ef1d25a1e7f8c1e94110.js></script>
 </body>
 </html>
