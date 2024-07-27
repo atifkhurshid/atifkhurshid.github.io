@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://atifkhurshid.github.io/sitemap.xml

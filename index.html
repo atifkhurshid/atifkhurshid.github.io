@@ -1,398 +1,266 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=generator content="Wowchemy 5.3.0 for Hugo">
-<meta name=google-site-verification content="IM7fc41b_2-jxla8TxY2jNWd_uwlpTiByHqETOvL1zc">
-<meta name=author content="Atif Khurshid">
-<meta name=description content="Computer Scientist">
-<link rel=alternate hreflang=en-us href=https://atifkhurshid.github.io/>
-<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
-<meta name=theme-color content="rgb(0, 136, 204)">
-<link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'">
-<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
-<link rel=stylesheet href=/css/wowchemy.a7532f82ed430994157fab47bc267907.css>
-<script>(function(b,d,e,a,g){b[a]=b[a]||[],b[a].push({'gtm.start':(new Date).getTime(),event:'gtm.js'});var f=d.getElementsByTagName(e)[0],c=d.createElement(e),h=a!='dataLayer'?'&l='+a:'';c.async=!0,c.src='https://www.googletagmanager.com/gtm.js?id='+g+h,f.parentNode.insertBefore(c,f)})(window,document,'script','dataLayer','GTM-M59GTTR')</script>
-<script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
-<link rel=alternate href=/index.xml type=application/rss+xml title="Atif Khurshid">
-<link rel=manifest href=/manifest.webmanifest>
-<link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png>
-<link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://atifkhurshid.github.io/>
-<meta property="twitter:card" content="summary">
-<meta property="twitter:site" content="@atifkhurshid100">
-<meta property="twitter:creator" content="@atifkhurshid100">
-<meta property="og:site_name" content="Atif Khurshid">
-<meta property="og:url" content="https://atifkhurshid.github.io/">
-<meta property="og:title" content="Atif Khurshid">
-<meta property="og:description" content="Computer Scientist"><meta property="og:image" content="https://atifkhurshid.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
-<meta property="twitter:image" content="https://atifkhurshid.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2021-10-01T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","url":"https://atifkhurshid.github.io/"}</script>
-<title>Atif Khurshid</title>
-</head>
-<body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class="page-wrapper dark">
-<script src=/js/wowchemy-init.min.09c555f11fc9292a2ccfd77590accf2f.js></script>
-<div class=page-header>
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
-<div class=container-xl>
-<div class="d-none d-lg-inline-flex">
-<a class=navbar-brand href=/>Atif Khurshid</a>
-</div>
-<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span>
-</button>
-<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-<a class=navbar-brand href=/>Atif Khurshid</a>
-</div>
-<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
-<ul class="navbar-nav d-md-inline-flex">
-<li class=nav-item>
-<a class=nav-link href=/#about data-target=#about><span>Home</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/#projects data-target=#projects><span>Projects</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/#publications data-target=#publications><span>Publications</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://atifkhurshid.medium.com/ target=_blank rel=noopener><span>Blog</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/uploads/CV.pdf><span>CV</span></a>
-</li>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Atif Khurshid</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the academic homepage of Atif Khurshid. I’m a Computer Scientist interested in Deep Learning, Computer Vision and Natural Language Processing.">
+    
+    <meta name="keywords" content="atif khurshid computer science vision ai nlp cv nust fast">
+    
+    
+    <link rel="canonical" href="https://atifkhurshid.github.io/"/>
+    
+
+    
+    <meta name=google-site-verification content="IM7fc41b_2-jxla8TxY2jNWd_uwlpTiByHqETOvL1zc">
+    
+
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon.png" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    
+    
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    
+
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-M59GTTR');</script>
+    <!-- End Google Tag Manager -->
+    
+
+  </head>
+  <body>
+
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M59GTTR"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->  
+    
+
+    <div class="wrapper">
+      <header>
+        
+        
+        <a class="image avatar"><img src="./assets/img/atif.jpeg" alt="avatar" /></a>
+        
+
+        <h1>Atif Khurshid</h1>
+
+        
+        <position style="font-size:1.10rem;">Lecturer</position>
+        <br>
+        
+        
+        <a href="http://isb.nu.edu.pk/Faculty/Details/6689" rel="noopener"><autocolor>Department of AI & Data Science, FAST-NUCES, Islamabad</autocolor></a>
+        <br>
+        
+        
+        <email>atif.khurshid@isb.nu.edu.pk</email>
+        
+
+        <br>
+        <br>
+        <div class="social-icons">
+        
+  
+        
+        <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=n1GKwfkAAAAJ&hl=en">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>  
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://github.com/atifkhurshid">
+          <i class="fab fa-github"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/atifkhurshid">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://atifkhurshid.medium.com/">
+          <i class="fab fa-medium"></i>
+        </a>
+        
+
+        
+        </div>
+        <br>
+
+      </header>
+      <section>
+
+      <h2 id="about-me">About Me</h2>
+
+<p>I am a Computer Scientist working to advance human-like perception in machines. I am primarily interested in the understanding and
+application of artificial intelligence in the domains of computer vision and natural language processing. Currently, I am a Lecturer at the AI and Data Science Department of FAST National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad.</p>
+
+<h2 id="research-interests">Research Interests</h2>
+
+<ul>
+  <li><strong>Machine Learning:</strong> deep learning, transfer learning</li>
+  <li><strong>Computer Vision:</strong> face recognition, video analytics, medical image analysis</li>
+  <li><strong>Natural Language Processing:</strong> text generation, large language models</li>
 </ul>
-</div>
-<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-<li class="nav-item dropdown theme-dropdown">
-<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences">
-<i class="fas fa-moon" aria-hidden=true></i>
-</a>
-<div class=dropdown-menu>
-<a href=# class="dropdown-item js-set-theme-light">
-<span>Light</span>
-</a>
-<a href=# class="dropdown-item js-set-theme-dark">
-<span>Dark</span>
-</a>
-<a href=# class="dropdown-item js-set-theme-auto">
-<span>Automatic</span>
-</a>
-</div>
-</li>
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li><strong>[July. 2024]</strong> Our paper about cephalometric landmark detection is accepted to ESWA.</li>
+  <li><strong>[Nov. 2023]</strong> Our paper about knee osteoarthritis classification is accepted to ICOSST 2023.</li>
+  <li><strong>[Aug. 2023]</strong> I have joined the AI &amp; Data Science department at FAST-NUCES as Lecturer.</li>
+  <li><strong>[Apr. 2021]</strong> Our paper about transfer learning grammar is accepted to ICoDT2 2021.</li>
 </ul>
-</div>
-</nav>
-</div>
-<div class=page-body>
-<span class="js-widget-page d-none"></span>
-<section id=about class="home-section wg-about">
-<div class=home-section-bg>
-</div>
-<div class=container>
-<div class=row>
-<div class="col-12 col-lg-4">
-<div id=profile>
-<img class="avatar avatar-circle" width=270 height=270 src=/authors/atif-khurshid/avatar_hu9cd2405605085d696fbb17c93aff7ad8_978904_270x270_fill_q75_lanczos_center.jpg alt="Atif Khurshid">
-<div class=portrait-title>
-<h2>Atif Khurshid</h2>
-<h3>Computer Scientist</h3>
-<h3>
-<a href=https://nust.edu.pk/ target=_blank rel=noopener>
-<span>National University of Sciences and Technology</span>
-</a>
-</h3>
-</div>
-<ul class=network-icon aria-hidden=true>
-<li>
-<a href=mailto:atifkhurshid100@gmail.com aria-label=envelope>
-<i class="fas fa-envelope big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://twitter.com/atifkhurshid100 target=_blank rel=noopener aria-label=twitter>
-<i class="fab fa-twitter big-icon"></i>
-</a>
-</li>
-<li>
-<a href="https://scholar.google.com/citations?user=n1GKwfkAAAAJ&hl=en" target=_blank rel=noopener aria-label=google-scholar>
-<i class="ai ai-google-scholar big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://github.com/atifkhurshid target=_blank rel=noopener aria-label=github>
-<i class="fab fa-github big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://www.linkedin.com/in/atifkhurshid target=_blank rel=noopener aria-label=linkedin>
-<i class="fab fa-linkedin big-icon"></i>
-</a>
-</li>
+
+<h2 id="teaching">Teaching</h2>
+
+<ul>
+  <li>Data Structures</li>
+  <li>Programming for AI</li>
+  <li>Object-Oriented Programming</li>
 </ul>
-</div>
-</div>
-<div class="col-12 col-lg-8">
-<h1></h1>
-<div class=article-style>
-<p>I am a student of M.S. Computer Science in the School of Electrical Engineering and Computer Science at National University of Sciences & Technology, Islamabad. My research is focused on the applications of deep learning in computer vision and natural language processing, particularly using unsupervised and transfer learning techniques. Currently, I&rsquo;m working on real-time face retrieval from video streams at the <a href=http://vision.seecs.edu.pk target=_blank rel=noopener>Machine Vision Lab</a>.</p>
-</div>
-<div class=row>
-<div class=col-md-5>
-<div class=section-subheading>Interests</div>
-<ul class="ul-interests mb-0">
-<li>Deep Learning</li>
-<li>Computer Vision</li>
-<li>Natural Language Processing</li>
-</ul>
-</div>
-<div class=col-md-7>
-<div class=section-subheading>Education</div>
-<ul class="ul-edu fa-ul mb-0">
+
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+
+<div class="publications">
+<ol class="bibliography">
+
+
+
 <li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>MS in Computer Science, 2022</p>
-<p class=institution>National University of Sciences and Technology</p>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+     
+    <img src="./assets/img/paper_highlights_2024_cephalometric_landmark_detection.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+    
+     
+    <abbr class="badge">ESWA</abbr>
+    
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S095741742401707X">Two-stage Regression Framework for Automated Cephalometric Landmark Detection Incorporating Semantically Fused Anatomical Features and Multi-head Refinement Loss</a></div>
+      <div class="author">Muhammad Anwaar Khalid, <strong>Atif Khurshid</strong>, Kanwal Zulfiqar, Ulfat Bashir, Muhammad Moazam Fraz</div>
+      <div class="periodical"><em>Expert Systems with Applications <strong>(ESWA)</strong>, 2024.</em>
+    </div>
+    <div class="links">
+      
+       
+      <a href="https://github.com/manwaarkhd/CEPHMark-Net" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      
+      
+      
+      
+      
+    </div>
+  </div>
 </div>
 </li>
+
+<br />
+
+
+
 <li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>BSc in Computer Science, 2019</p>
-<p class=institution>Chinese University of Hong Kong</p>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+     
+    <img src="./assets/img/paper_highlights_2023_knee_osteoarthritis.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+    
+     
+    <abbr class="badge">ICOSST</abbr>
+    
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/10414241">Automated Deep Learning Based Knee Osteoarthritis Joint Extraction and Classification</a></div>
+      <div class="author">Muhammad Sohail Abbas, Sonain Jamil, <strong>Atif Khurshid</strong></div>
+      <div class="periodical"><em>17th International Conference on Open Source Systems and Technologies <strong>(ICOSST)</strong>, 2023.</em>
+    </div>
+    <div class="links">
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
 </div>
 </li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id=projects class="home-section wg-portfolio">
-<div class=home-section-bg>
-</div>
-<div class=container>
-<div class="row justify-content-center">
-<div class="section-heading col-12 mb-3 text-center">
-<h1 class=mb-0>Projects</h1>
-</div>
-<div class=col-12>
-<span class="d-none default-project-filter">*</span>
-<div class=project-toolbar>
-<div class=project-filters>
-<div class=btn-toolbar>
-<div class="btn-group flex-wrap">
-<a href=# data-filter=* class="btn btn-primary btn-lg active">All</a>
-<a href=# data-filter=.js-id-Deep-Learning class="btn btn-primary btn-lg">Deep Learning</a>
-<a href=# data-filter=.js-id-Machine-Learning class="btn btn-primary btn-lg">Machine Learning</a>
-<a href=# data-filter=.js-id-Computer-Vision class="btn btn-primary btn-lg">Computer Vision</a>
-<a href=# data-filter=.js-id-Natural-Language-Processing class="btn btn-primary btn-lg">Natural Language Processing</a>
-</div>
-</div>
-</div>
-</div>
-<div class="isotope projects-container row js-layout-row project-showcase">
-<div class="col-lg-12 project-item isotope-item js-id-Deep-Learning js-id-Computer-Vision">
-<div class="row align-items-center">
-<div class="col-12 col-md-6">
-<div class="section-subheading article-title mb-0 mt-0">StreamFace - Extracting a large-scale face dataset from live streams</div>
-<div class=article-style>
-A study of efficient face retrieval techniques in a real-time video stream analytics system with the aim of generating a large-scale face dataset.
-</div>
-<div class=btn-links>
-</div>
-</div>
-<div class="col-12 col-md-6 order-first">
-<img src=/project/dl-streamface/featured_hu3978ae1e3a8c64247131f55aa6bf0b54_55406_540x0_resize_lanczos_3.png alt="StreamFace - Extracting a large-scale face dataset from live streams" loading=lazy>
-</div>
-</div>
-</div>
-<div class="col-lg-12 project-item isotope-item js-id-Deep-Learning js-id-Natural-Language-Processing">
-<div class="row align-items-center">
-<div class="col-12 col-md-6">
-<div class="section-subheading article-title mb-0 mt-0">Transfer learning grammar for multilingual surface realisation</div>
-<div class=article-style>
-A study of cross-lingual transfer learning of grammatical features in a transformer model for multilingual surface realisation.
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header" href=https://github.com/atifkhurshid/nlp-transfer-learning-grammar target=_blank rel=noopener>
-<i class="fab fa-github mr-1"></i>Code</a>
-</div>
-</div>
-<div class="col-12 col-md-6 order-first order-md-2">
-<img src=/project/nlp-transfer-learning-grammar/featured_hu4f09605e8b4e74cfd8c67692bd6ae305_112830_540x0_resize_lanczos_3.png alt="Transfer learning grammar for multilingual surface realisation" loading=lazy>
-</div>
-</div>
-</div>
-<div class="col-lg-12 project-item isotope-item js-id-Machine-Learning js-id-Network-Security">
-<div class="row align-items-center">
-<div class="col-12 col-md-6">
-<div class="section-subheading article-title mb-0 mt-0">Online machine learning-based framework for network intrusion detection</div>
-<div class=article-style>
-Extendible framework for incorporation of arbitrary machine learning models in online network intrusion detection systems.
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header" href=https://github.com/atifkhurshid/nids-framework-1 target=_blank rel=noopener>
-<i class="fab fa-github mr-1"></i>Code</a>
-</div>
-</div>
-<div class="col-12 col-md-6 order-first">
-<img src=/project/ml-nids/featured_hu7decc3d44c2afc2b9a1586ffa7fd3794_139927_540x0_resize_lanczos_3.png alt="Online machine learning-based framework for network intrusion detection" loading=lazy>
-</div>
-</div>
-</div>
-<div class="col-lg-12 project-item isotope-item js-id-Deep-Learning js-id-Computer-Vision">
-<div class="row align-items-center">
-<div class="col-12 col-md-6">
-<div class="section-subheading article-title mb-0 mt-0">Heart disease classification using deep residual learning</div>
-<div class=article-style>
-Implemented a Deep Residual Neural Network to detect Atrial Fibrillation using the dataset from PhysioNet Computing in Cardiology Challenge 2017.
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header" href=https://github.com/atifkhurshid/dl-resnet-for-af-classification target=_blank rel=noopener>
-<i class="fab fa-github mr-1"></i>Code</a>
-</div>
-</div>
-<div class="col-12 col-md-6 order-first order-md-2">
-<img src=/project/dl-heart-disease-classification/featured_hu2e651e48ad156ccf35c0a7b493de2a4d_57872_540x0_resize_lanczos_3.png alt="Heart disease classification using deep residual learning" loading=lazy>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id=publications class="home-section wg-pages">
-<div class=home-section-bg>
-</div>
-<div class=container>
-<div class="row justify-content-center">
-<div class="section-heading col-12 mb-3 text-center">
-<h1 class=mb-0>Publications</h1>
-</div>
-<div class=col-12>
-<div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/publication/2021-transfer-learning-grammar/>Transfer learning grammar for multilingual surface realisation</a>
-</div>
-<a href=/publication/2021-transfer-learning-grammar/ class=summary-link>
-<div class=article-style>
-A study of cross-lingual transfer learning of grammatical features in a transformer model for multilingual surface realisation.
-</div>
-</a>
-<div class="stream-meta article-metadata">
-<div>
-<span class=author-highlighted>
-Atif Khurshid</span>, <span>
-Seemab Latif</span>, <span>
-Rabia Latif</span>
-</div>
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/2021-transfer-learning-grammar/paper.pdf target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/2021-transfer-learning-grammar/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/atifkhurshid/nlp-transfer-learning-grammar target=_blank rel=noopener>
-Code
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/2021-transfer-learning-grammar/slides.pdf target=_blank rel=noopener>
-Slides
-</a>
-</div>
-</div>
-<div class=ml-3>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id=contact class="home-section wg-contact">
-<div class=home-section-bg>
-</div>
-<div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Contact</h1>
-</div>
-<div class="col-12 col-lg-8">
-<ul class=fa-ul>
+
+<br />
+
+
+
 <li>
-<i class="fa-li fas fa-envelope fa-2x" aria-hidden=true></i>
-<span id=person-email><a href=mailto:atifkhurshid100@gmail.com>atifkhurshid100@gmail.com</a></span>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+     
+    <img src="./assets/img/paper_highlights_2021_transfer_learning_grammar.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+    
+     
+    <abbr class="badge">ICoDT2</abbr>
+    
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/9441522">Transfer Learning Grammar for Multilingual Surface Realisation</a></div>
+      <div class="author"><strong>Atif Khurshid</strong>, Seemab Latif, Rabia Latif</div>
+      <div class="periodical"><em>International Conference on Digital Futures and Transformative Technologies <strong>(ICoDT2)</strong>, 2021.</em>
+    </div>
+    <div class="links">
+       
+      <a href="./assets/files/2021_transfer_learning_grammar.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      
+       
+      <a href="https://github.com/atifkhurshid/nlp-transfer-learning-grammar" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
 </li>
-<li>
-<i class="fa-li fas fa-map-marker fa-2x" aria-hidden=true></i>
-<span id=person-address>MachVIS Lab, PG Block, SEECS, NUST </span>
-</li>
-<li>
-<i class="fa-li fab fa-twitter fa-2x" aria-hidden=true></i>
-<a href=https://twitter.com/atifkhurshid100 target=_blank rel=noopener>@atifkhurshid100</a>
-</li>
-</ul>
-<div class=d-none>
-<input id=map-provider value=mapnik>
-<input id=map-lat value=33.642658505355655>
-<input id=map-lng value=72.99021590346351>
-<input id=map-dir value="MachVIS Lab, PG Block, SEECS, NUST ">
-<input id=map-zoom value=14>
-<input id=map-api-key value>
+
+<br />
+
+
+
+</ol>
 </div>
-<div id=map></div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class=page-footer>
-<div class=container>
-<footer class=site-footer>
-<p class=powered-by>
-Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.
-</p>
-</footer>
-</div>
-</div>
-<div id=modal class="modal fade" role=dialog>
-<div class=modal-dialog>
-<div class=modal-content>
-<div class=modal-header>
-<h5 class=modal-title>Cite</h5>
-<button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span>
-</button>
-</div>
-<div class=modal-body>
-<pre><code class="tex hljs"></code></pre>
-</div>
-<div class=modal-footer>
-<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
-<i class="fas fa-copy"></i> Copy
-</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
-<i class="fas fa-download"></i> Download
-</a>
-<div id=modal-error></div>
-</div>
-</div>
-</div>
-</div>
-<script src=/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script>
-<script src=/en/js/wowchemy.min.4273a72ba000ef1d25a1e7f8c1e94110.js></script>
-</body>
+
+
+
+      <br>
+
+      
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
 </html>
